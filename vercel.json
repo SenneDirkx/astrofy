@@ -1,8 +1,8 @@
 {
-    "rewrites": [
-      {
-        "source": "/stats/:match*",
-        "destination": "https://analytics.eu.umami.is/:match*"
-      }
-    ]
-  }
+  "rewrites": [
+    {
+      "source": "/ingest/:path(.*)",
+      "destination": "https://eu.posthog.com/:path*"
+    }
+  ]
+}
